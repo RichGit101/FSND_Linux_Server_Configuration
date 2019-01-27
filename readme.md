@@ -330,6 +330,25 @@ sudo service apache2 restart
 
 43) Rubrics were checked and project was prepared for submission
 
+Firewall reads
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+2200/tcp                   ALLOW IN    Anywhere                  
+80/tcp                     ALLOW IN    Anywhere                  
+123/udp                    ALLOW IN    Anywhere                  
+2200/tcp (v6)              ALLOW IN    Anywhere (v6)             
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+123/udp (v6)               ALLOW IN    Anywhere (v6)             
+
+
+
+
+
 ### Thanks and acknowledgements
 Thanks to Udacity staff, Udacity Instrutors and Udacity Mentors for helping out. I made multiple VMS, multiple tests and configurations, finally got it to work. Thanks to all the help
 Thanks to Knowledge hub, and class room chat, I will be closing my open questions shortly on all of them. Thanks to stackoverflow, a ready reference.
