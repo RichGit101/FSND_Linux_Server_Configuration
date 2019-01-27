@@ -99,7 +99,7 @@ We also add a fix for loopback issue by editing /etc/hosts file
     * $ ssh-keygen -f ~/.ssh/udacity_key.rsa
 
 </em>
-13) Verify that two keys are made. The one with .pub extension is a public key. The other is a private key. We already know who this works from classes. Hence we cat and read the public key.
+* Verify that two keys are made. The one with .pub extension is a public key. The other is a private key. We already know how this works from udacity classes. Hence we cat and read the public key.
 
 <em>
     * $ cat ~/.ssh/udacity_key.rsa.pub
