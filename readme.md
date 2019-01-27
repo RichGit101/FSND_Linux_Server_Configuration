@@ -931,3 +931,5 @@ xz-utils/xenial,now 5.1.1alpha+20120614-2ubuntu2 amd64 [installed]
 zerofree/xenial,now 1.0.3-1 amd64 [installed]
 zlib1g/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed]
 zlib1g-dev/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed,automatic]
+
+* for updates also do sudo apt-get dist-upgrade (it will only do ht packages not the OS upgrade)
