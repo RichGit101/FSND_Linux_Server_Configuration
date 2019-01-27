@@ -34,8 +34,9 @@ IP address is provide for rubric only, please do not use this to reach this appl
 * Web server has been configured to serve the Item Catalog application as a WSGI app. - OK
 * A README file is included in the GitHub repo containing the following information: IP address, URL, summary of software installed, summary of configurations made, and a list of third-party resources used to complete this project. - OK (ref below)
 
-
-
+### For review 2
+OS updated. 
+<img src="/resources_static/OS_uptodate.png" >
 ## Steps Followed
 
 1) Planned the hosting by estimating users, cost and resources required for this project.
