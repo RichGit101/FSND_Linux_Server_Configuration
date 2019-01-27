@@ -38,7 +38,9 @@ IP address is provide for rubric only, please do not use this to reach this appl
 
 ## Steps Followed
 
-1) Planned the hosting by estimating users, cost and resources required for this project
+1) Planned the hosting by estimating users, cost and resources required for this project.
+
+Side Note : I made multiple VMS, multiple tests and configurations, finally got it to work.
 
 2) Went to Amazon light sail, signed up to Amazon light sail and created a VM on plain ubuntu as seen in the screenshot below
 
@@ -329,7 +331,7 @@ sudo service apache2 restart
 43) Rubrics were checked and project was prepared for submission
 
 ### Thanks and acknowledgements
-Thanks to Udacity staff, Udacity Instrutors and Udacity Mentors for helping out.
+Thanks to Udacity staff, Udacity Instrutors and Udacity Mentors for helping out. I made multiple VMS, multiple tests and configurations, finally got it to work. Thanks to all the help
 Thanks to Knowledge hub, and class room chat, I will be closing my open questions shortly on all of them. Thanks to stackoverflow, a ready reference.
 I used various books, sites, youtube videos for references, thanks to them all. Thanks to github of iliketomatoes, stueken and chuanqin too. I will be adding more to the list as i improve on this time to time.
 Thanks for reading my readme.md.
