@@ -34,14 +34,12 @@ IP address is provide for rubric only, please do not use this to reach this appl
 * Web server has been configured to serve the Item Catalog application as a WSGI app. - OK
 * A README file is included in the GitHub repo containing the following information: IP address, URL, summary of software installed, summary of configurations made, and a list of third-party resources used to complete this project. - OK (ref below)
 
-### For review 2
-OS updated. 
-<img src="/resources_static/OS_uptodate.png" >
+
 ## Steps Followed
 
 1) Planned the hosting by estimating users, cost and resources required for this project.
 
-Side Note : I made multiple VMS, multiple tests and configurations, finally got it to work.
+Side Note : I made multiple VMS, multiple tests and configurations, multiple vm snapshots,  finally got it to work.
 
 2) Went to Amazon light sail, signed up to Amazon light sail and created a VM on plain ubuntu as seen in the screenshot below
 
@@ -51,7 +49,7 @@ Side Note : I made multiple VMS, multiple tests and configurations, finally got 
 
 <img src="/resources_static/2connect_VM.png" >
 
-4) Since Full stack is a iterative process and we have a VM started the modern devops practice of taking VM snapshots.
+4) Since Full stack is an iterative process and we have a VM started on the cloud, let us indulge in the the modern devops practice of taking VM snapshots.
 
  <img src="/resources_static/3backup.png" >
 
@@ -933,3 +931,6 @@ zlib1g/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed]
 zlib1g-dev/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed,automatic]
 
 * for updates also do sudo apt-get dist-upgrade (it will only do ht packages not the OS upgrade)
+### For review 2
+OS updated. 
+<img src="/resources_static/OS_uptodate.png" >
